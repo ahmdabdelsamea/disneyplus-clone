@@ -5,6 +5,7 @@ import { Provider } from 'react-redux';
 import App from './App';
 import './assets/fonts/avenir-roman.woff';
 import './index.css';
+
 import store from './app/store';
 
 ReactDOM.render(

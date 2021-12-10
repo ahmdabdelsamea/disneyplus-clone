@@ -15,7 +15,7 @@ const Movie = () => {
 
 	useEffect(() => {
 		dispatch(getMovieDetails(id));
-	}, [dispatch]);
+	}, [id, dispatch]);
 
 	return (
 		<Container>
@@ -42,7 +42,7 @@ const Movie = () => {
 								</Overview>
 							</div>
 							<Button>
-								<a href={movie.homepage} target='_blank'>
+								<a href={movie.homepage} target='_blank' rel='noreferrer'>
 									Watch
 								</a>
 							</Button>

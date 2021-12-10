@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import Slider from 'react-slick';
+
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 
@@ -8,6 +9,7 @@ import { getPosters } from '../app/actions/moviesActions';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { settings } from './settings';
 
 const IMG_URL = 'https://image.tmdb.org/t/p/w500';
 
@@ -20,16 +22,6 @@ const ImgSlider = () => {
 	useEffect(() => {
 		dispatch(getPosters());
 	}, [dispatch]);
-
-	let settings = {
-		dots: false,
-		infinite: true,
-		speed: 300,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		autoplay: true,
-		variableWidth: true,
-	};
 
 	return (
 		<>
@@ -132,5 +124,47 @@ const Wrap = styled.div`
 		}
 	}
 `;
+
+// const Wrap = styled.div`
+// 	margin: 50px 0;
+
+// 	a {
+// 		border-radius: 10px;
+// 		cursor: pointer;
+// 		display: block;
+// 		transition: 0.5s ease;
+
+// 		img {
+// 			/* height: 100%; */
+// 			max-width: 400px;
+// 			background-size: cover;
+// 			border-radius: 10px;
+
+// 			@media (max-width: 1300px) {
+// 				max-width: 360px;
+// 			}
+
+// 			@media (max-width: 1200px) {
+// 				max-width: 450px;
+// 			}
+
+// 			@media (max-width: 1000px) {
+// 				max-width: 380px;
+// 			}
+
+// 			@media (max-width: 800px) {
+// 				max-width: 800px;
+// 			}
+
+// 			@media (max-width: 400px) {
+// 				max-width: 400px;
+// 			}
+// 		}
+
+// 		&:hover {
+// 			transform: translateY(-10px);
+// 		}
+// 	}
+// `;
 
 export default ImgSlider;
