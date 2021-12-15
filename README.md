@@ -31,7 +31,7 @@ Make sure you have these installed
 - [React](https://reactjs.org/)
 - [Redux](https://redux.js.org/)
 - [React Redux](https://react-redux.js.org/)
-- [Axios](https://www.axios.com/)
+- [Axios](https://axios-http.com/)
 - [The Movie Database (TMDB) API](https://developers.themoviedb.org/3/getting-started/introduction)
 - [Slick Carousel](http://kenwheeler.github.io/slick/)
 - [React Slick](https://react-slick.neostack.com/)
