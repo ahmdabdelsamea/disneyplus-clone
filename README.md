@@ -2,14 +2,15 @@
 
 <h3 align="center">Disney+ Clone built with React.js and Styled Components for learning and practicing purposes.</h3>
 
-![Disney Plus Clone](disney-clone-home.png)
 ![Disney Plus Clone](disney-clone-welcome.png)
 
 ---
 
 ### Demo :tv:
 
-Disney+ clone to discover new popular movies [Disney Plus Clone](https://covid-19-tracker-6be22.web.app/)
+Disney+ clone to discover new popular movies [Disney Plus Clone](https://disney-plus-clone-tmdb.netlify.app/)
+
+![Disney Plus Clone](disney-clone-home.png)
 
 ### Prerequisite :hammer_and_wrench:
 
@@ -20,8 +21,8 @@ Make sure you have these installed
 
 ### Instructions :gear:
 
-1. Clone this repository into your local machine using the terminal (mac) or Gitbash (PC) `git clone https://github.com/ahmdabdelsamea/covid-tracker.git`
-2. CD to the folder `cd covid-tracker`
+1. Clone this repository into your local machine using the terminal (mac) or Gitbash (PC) `git clone https://github.com/ahmdabdelsamea/disneyplus-clone.git`
+2. CD to the folder `cd disneyplus-clone`
 3. Run `npm install` to install the project dependencies
 4. Run `npm start` to run the project at http://localhost:3000
 
